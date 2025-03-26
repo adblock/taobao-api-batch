@@ -1,8 +1,9 @@
 const axios = require('axios');
 const { format } = require('date-fns');
 const querystring = require('querystring');
+// test2
 const crypto = require('crypto');
-/// tsatastda
+// test
 function TaobaoApiBatch(options) {
     this._options = options || {};
     if (!this._options.app_key || !this._options.app_secret) {
